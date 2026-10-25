@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content
+plugins: platformdirs-4.13.5, anyio-4.15.1, typeguard-4.6.0, langsmith-0.14.11
+collecting ... collected 2 items
+
+test_occupancy_utils.py::test_feature_creation PASSED                    [ 50%]
+test_occupancy_utils.py::test_evaluation PASSED                          [100%]
+
+============================== 2 passed in 2.72s ===============================

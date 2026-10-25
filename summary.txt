@@ -1,0 +1,14 @@
+MMA3001 Occupancy Analysis
+Dataset sample: 303058 records
+Best threshold: 0.70
+
+Final Model Comparison:
+                        Model  Accuracy  Balanced Accuracy  Precision   Recall       F1
+                     Baseline  0.966558           0.500000   0.000000 0.000000 0.000000
+   Logistic Regression (0.50)  0.505428           0.627234   0.049513 0.757770 0.092953
+Optimised Logistic Regression  0.940523           0.565593   0.148082 0.163789 0.155540
+
+Computational Performance:
+              Model  Training_Time_s  Prediction_Time_s
+           Baseline         0.041004           0.000535
+Logistic Regression         0.958852           0.103727
